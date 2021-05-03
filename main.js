@@ -8,9 +8,13 @@ function randomCoder() {
     let eliminada = coders.splice(elegida,1);
     document.getElementById("select").innerHTML = eliminada;
 }
-
+function refreshPage(){
+    window.location.reload();
+}
 let button = document.getElementById("generate");
 
 button.addEventListener("click", randomCoder);
+
+
 
 
