@@ -4,7 +4,6 @@ const coders = ['Alisa', 'Angie', 'Gaby', 'Rosangely', 'Yeraldín', 'Eliana', 'I
 
 function randomCoder() {
     let elegida = Math.floor(Math.random() * coders.length);
-    const norepetir = coders [ randomCoder];
     let eliminada = coders.splice(elegida,1);
     document.getElementById("select").innerHTML = eliminada;
 }
@@ -14,6 +13,7 @@ function refreshPage(){
 let button = document.getElementById("generate");
 
 button.addEventListener("click", randomCoder);
+
 
 
 
