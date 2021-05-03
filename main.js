@@ -9,7 +9,7 @@ function randomCoder() {
     document.getElementById("select").innerHTML = eliminada;
 }
 function refreshPage(){
-    window.location.reload();
+    location.reload();
 }
 let button = document.getElementById("generate");
 
