@@ -1,6 +1,6 @@
-const coders = ['Alisa', 'Angie', 'Gaby', 'Rosangely', 'Yeraldine', 'Eliana', 'Inga', 'DanielaR', 'MariaLaura', 'Taiza',
+const coders = ['Alisa', 'Angie', 'Gaby', 'Rosangely', 'Yeraldín', 'Eliana', 'Inga', 'DanielaR', 'MariaLaura', 'Taiza',
     'Nicole', 'AnaLissette', 'AnaGarcía', 'DanielaT', 'Marta', 'Amanda', 'Yasmin', 'Sònia', 'Leo', 'Pepi', 'Claudia',
-    'Jolga', 'Flo', 'Ranju'];
+    'Olga', 'Flo', 'Ranju'];
 
 function randomCoder() {
     let elegida = Math.floor(Math.random() * coders.length);
