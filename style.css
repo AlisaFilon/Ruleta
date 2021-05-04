@@ -4,11 +4,7 @@ body {
     background-attachment: fixed;
     display: flex;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .random {
     display: inline-block;
     text-align: center;
@@ -26,8 +22,9 @@ button {
     list-style-type: none;
 }
 .volcan {
-    width: 500px;
-    height: 500px;
-    align-items: flex-end;
+
+    position: relative;
+    top: 20px;
+    left: 400px;
 
 }
