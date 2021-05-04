@@ -8,6 +8,10 @@ body {
 .random {
     display: inline-block;
     text-align: center;
+    position: relative;
+    top: 20px;
+    right: 400px;
+
 }
 
 button {
@@ -24,7 +28,8 @@ button {
 .volcan {
 
     position: relative;
-    top: 20px;
+    top: 110px;
     left: 400px;
+    height: 500px;
 
 }
