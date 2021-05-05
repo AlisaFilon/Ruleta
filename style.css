@@ -1,8 +1,11 @@
-body {
-    background = "lava6.gif";
+html {
+    background-image: url("lava6.gif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+body {
+
     display: flex;
     color: aqua;
 }
