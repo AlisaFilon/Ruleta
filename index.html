@@ -10,23 +10,35 @@
 
 <body>
 
-<div>
+<div class="container">
 
-    <a><img class="volcan" src="volcan2.png"></a>
+    <div class="random">
+
+        <h1 id="afortunada">La afortunada es</h1>
+
+        <h1 id="select"></h1>
+
+    </div>
+
+    <div>
+
+        <button id="generate">SELECT A CODER</button>
+        <button type="button" onClick="refreshPage()">RESTART</button>
+
+    </div>
 
 </div>
 
+<script src="main.js"></script>
+</body>
 
-<div class="random">
+<div id="footer">
 
-    <h1>La afortunada</h1>
-
-    <h2 id="select">es</h2>
-
-    <button id="generate">SELECT A CODER</button>
-    <button type="button" onClick="refreshPage()">RESTART</button>
+    <img class="footer_image" src="volcan2.png">
 
 </div>
+
+</html>
 <!--
 <div class="lista">
 <ul class="list">
@@ -56,9 +68,3 @@
     <li><input type="checkbox">Yasmín</li>
 </ul>
 </div> -->
-</div>
-
-
-<script src="main.js"></script>
-</body>
-</html>
