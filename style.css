@@ -24,7 +24,8 @@ body {
 .random {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-    text-shadow: darkred 0 -4px;
+    text-shadow: #c31105 0 -4px;
+    font-weight: bold;
 
 
 }
@@ -34,8 +35,9 @@ body {
     text-align: center;
     margin-left: 120%;
     align-self: center;
-    color: yellow;
+    color: #fef52b;
     position: relative;
+    font-weight: bold;
 }
 .fila {
     display: flex;
