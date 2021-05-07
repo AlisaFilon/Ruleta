@@ -14,13 +14,12 @@ body {
 }
 #footer {
 
-    content: url("volcan2.png");
-    position: absolute;
-    height: 450px;
-    margin-bottom: 0;
-    margin-left: 28%;
-    float: right;
+    background-image: url("volcan2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
 
+    background-position: bottom center;
 }
 .random {
     text-align: center;
